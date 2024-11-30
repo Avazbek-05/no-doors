@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container1 {
+  width: 90%;
+  margin: 0 auto;
+}
+@media (min-width: 1400px) {
+  .container1 {
+    width: 1350px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1040px) {
+  .menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f7fb;
+    row-gap: 10px;
+    transition: 0.7s;
+  }
+  #check:checked ~ .menu {
+    left: 0;
+  }
+}
+
+.img1 {
+  background-image: url(../img/phonecard.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.img2 {
+  background-image: url(../img/phone-2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.img3 {
+  background-image: url(../img/poy.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
