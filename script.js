@@ -1,8 +1,8 @@
 //1-masala
-// let soz = "Salom dunyo";
-// for(let i=soz.length-1; i>=0; i--){
-//     console.log(soz[i]);
-// }
+// let text1 = "Salom dunyo";
+// let text2 = text1.split(" ");
+// let res = text2.reverse().join();
+// console.log(res);
 
 //2-masala
 
@@ -29,7 +29,5 @@
 // }
 // }
 // console.log(count);
-
-
 
 //4-masala
